@@ -27,22 +27,23 @@
           <!-- Image -->
           <div class="p-5 border rounded border-gray-200 m-5">
             <div class="h-96 w-full">
-              <img src="images/1.jpg" id="art" class="w-full rounded h-full object-cover" alt="" />
+              <img src="images/1.jpg" id="main-image" class="w-full rounded h-full object-cover" alt="" />
             </div>
           </div>
           <!-- Options -->
           <div class="mt-10 max-w-lg mx-auto">
-            <span id="desc" class="text-lg text-gray-700"
-              >Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos aut accusamus, ipsam iusto
-              illum error nisi! Deserunt facilis ratione nobis!
+            <span id="desc" class="text-lg text-gray-700">
+              <span class="font-bold" id="first-desc">First-Image desc:</span> Lorem ipsum dolor sit amet
+              consectetur adipisicing elit. Dignissimos aut accusamus, ipsam iusto illum error nisi! Deserunt
+              facilis ratione nobis!
             </span>
-            <div class="text-xl font-medium">Price:$ <span id="price">700</span></div>
+            <div class="text-xl font-medium mt-2 font-bold">Price:$ <span id="price">700</span></div>
             <div class="mt-7">
-              <button class="p-4 border-2 hover:shadow-2xl">
-                Reuglar Shipping:$ <span id="rugular">5</span>
+              <button id="regular-button" class="p-4 border-2 hover:shadow-2xl">
+                Regular Shipping:$ <span id="regular">5</span>
               </button>
-              <button class="p-4 border-2 hover:shadow-2xl ml-5">
-                Express Shipping:$ <span id="rugular">20</span>
+              <button id="express-button" class="p-4 border-2 hover:shadow-2xl ml-5">
+                Express Shipping:$ <span id="express">20</span>
               </button>
             </div>
             <div class="flex justify-between items-center mt-20">
@@ -69,7 +70,7 @@
             </div>
             <div class="mt-5">
               <div>
-                <h4 class="text-xl">Delivery Cost: $ <span id="delivery-cost"></span></h4>
+                <h4 class="text-xl">Delivery Cost: $ <span id="delivery-cost">00</span></h4>
                 <h2 class="text-2xl mt-5">Total Cost: $ <span id="Total-cost"></span></h2>
               </div>
               <div class="mt-5">
@@ -83,6 +84,6 @@
       </div>
     </main>
     <!-- Custom js -->
-    <script src="scripts/main.js"></script>
+    <script src="js/shopping.js"></script>
   </body>
 </html>
